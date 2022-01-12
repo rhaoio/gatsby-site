@@ -4,8 +4,11 @@ module.exports = {
     title: "Richard Hao Personal",
   },
   plugins: [
+    "gatsby-plugin-fontawesome-css",
+    "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-svgr",
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
@@ -14,6 +17,14 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/, // See below to configure properly
+        },
+      },
     },
   ],
 };
