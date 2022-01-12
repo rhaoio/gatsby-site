@@ -12,8 +12,7 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "heroku-postbuild": "gatsby build"
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.3.0-beta3",
