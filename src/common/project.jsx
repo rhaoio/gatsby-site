@@ -2,11 +2,22 @@ import React from "react";
 import ProjectStatus from "./projectstatus";
 import Tags from "./tags";
 import ProjIcon from "./projecticon";
+import { StaticImage } from "gatsby-plugin-image";
 
-const Project = ({ name, link, shortLink, description, tags, icon }) => {
+const Project = ({
+  name,
+  link,
+  shortLink,
+  description,
+  tags,
+  icon,
+  image,
+  status,
+}) => {
   return (
-    <div className="bg-gradient-to-r from-zinc-600 to-zinc-600 text-white">
-      <div className="border-t-4 border-line border-neutral-50 relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-sm mb-6">
+    <div className="bg-gradient-to-b from-[#242424] to-[#242424] text-white drop-shadow-lg">
+      <div className="border-t-4 border-line border-[#4806ff] relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-sm mb-6">
+        {image && <StaticImage />}
         <div className="lg:flex-1">
           <h4 className="font-bold">{name}</h4>
           <a className="underline" href={link}>
@@ -14,7 +25,7 @@ const Project = ({ name, link, shortLink, description, tags, icon }) => {
           </a>
           <p className="w-full py-4 whitespace-pre-line">{description}</p>
           <ul className="pr-2">
-            <ProjectStatus status="live" /> <Tags tags={tags} />
+            <ProjectStatus status={status} /> <Tags tags={tags} />
           </ul>
           <ProjIcon icon={icon} />
         </div>

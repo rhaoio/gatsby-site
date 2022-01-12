@@ -6,6 +6,7 @@ const Footer = () => {
       <div className="md:max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 flex items-center">
         <div className="w-2/3 text-back-light font-header text-xs">
           <b>&copy; {new Date().getFullYear()} richard hao.</b>
+          <b className="font-normal"> Created with Gatsby and Tailwind</b>
         </div>
         {/* <div className="w-1/3 text-right">
           <a

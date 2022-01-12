@@ -32,7 +32,7 @@ const About = () => {
                 height={170}
                 className="rounded-full relative z-10"
               />
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-red-500 to-[#a200ff] bg-lead z-0 transform translate-x-5"></div>
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#5701f7] to-[#3700ff] bg-lead z-0 transform translate-x-5"></div>
             </div>
           </div>
           <div className="pt-8 pb-12 lg:py-0 my-4">

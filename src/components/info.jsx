@@ -15,7 +15,7 @@ const Info = () => {
       <div>
         <FontAwesomeIcon icon={faEnvelopeOpen} fixedWidth />
         <a
-          className="text-lead border-back px-3"
+          className="lowercase border-back px-3"
           href="mailto:rhaogamedesign@gmail.com"
         >
           Email
@@ -24,7 +24,7 @@ const Info = () => {
       <div>
         <FontAwesomeIcon icon={faLinkedin} fixedWidth />
         <a
-          className="text-lead  border-back px-3 "
+          className="lowercase  border-back px-3 "
           href="https://www.linkedin.com/in/richardhao1995/"
         >
           Linkedin
@@ -33,7 +33,7 @@ const Info = () => {
       <div>
         <FontAwesomeIcon icon={faGithub} fixedWidth />
         <a
-          className="text-lead border-back px-3"
+          className="lowercase border-back px-3"
           href="https://github.com/richardhao1995"
         >
           Github

@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "Richard Hao Personal",
+    title: "Richard Hao",
+    description: "All about Richard Hao.",
   },
   plugins: [
     "gatsby-plugin-fontawesome-css",
     "gatsby-plugin-postcss",
+    "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-plugin-svgr",

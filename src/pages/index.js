@@ -7,7 +7,7 @@ import Footer from "../components/footer";
 // markup
 const IndexPage = () => {
   return (
-    <div className="antialiased bg-back leading-normal font-text text-front text-white bg-gray-800">
+    <div className="antialiased bg-back leading-normal font-text text-front text-white bg-gradient-to-b from-[#5900ff] to-[#1f1f1f]">
       <NavBar></NavBar>
 
       <div className="md:max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 flex flex-wrap pt-4 my-8">
