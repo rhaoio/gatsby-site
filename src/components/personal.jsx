@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 const Personal = () => {
   return (
-    <div>
+    <div className="">
       <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
         📖 About
       </h5>

@@ -16,7 +16,7 @@ const Project = ({
 }) => {
   return (
     <div className="bg-gradient-to-b from-[#242424] to-[#242424] text-white drop-shadow-lg">
-      <div className="border-t-4 border-line border-[#4806ff] relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-sm mb-6">
+      <div className="border-t-4 border-line border-[#0640ff] relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-sm mb-6">
         {image && <StaticImage />}
         <div className="lg:flex-1">
           <h4 className="font-bold">{name}</h4>
