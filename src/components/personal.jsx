@@ -23,8 +23,8 @@ const Personal = () => {
         <span className="block pb-3">
           I also love playing and making games. OSRS, TFT/League, Rocket League
           and CSGO. New Unity RPG game in the works as well. Previously worked
-          for PlayAGS as a Game Designer and now looking to create cool
-          software.
+          for PlayAGS as a Game Designer with several successful games made and
+          now looking to create cool software.
         </span>
       </div>
     </div>

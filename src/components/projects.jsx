@@ -10,6 +10,15 @@ const Projects = () => {
 
       <div className="py-2">
         <Project
+          name="Inventory3 - Smart Contracts to handle your inventory"
+          link=""
+          shortLink=""
+          description="A personal project to create an open-source inventory management solution on chain which allows users to manage in-house product pricing, location, quantity, batching, create and receive orders. Users will also be able to generate invoices and manage inventory related finances."
+          tags={["Ethereum", "Solidity", "React"]}
+          icon={["eth", "react"]}
+          status="In development"
+        />
+        <Project
           name="O.R Workflow Dashboard"
           link=""
           shortLink=""

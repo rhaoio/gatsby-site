@@ -21,7 +21,7 @@ const ContactForm = () => {
             <input
               aria-label="Name"
               autoComplete="name"
-              className="bg-back-light transition-opacity duration-150 w-full text-front px-4 py-3 font-header font-semibold text-sm outline-none leading-normal"
+              className="caret-white bg-gradient-to-b from-[#242424] to-[#242424] transition-opacity duration-150 w-full text-front px-4 py-3 font-header font-semibold text-sm outline-none leading-normal"
               name="name"
               placeholder="NAME"
               required
@@ -32,7 +32,7 @@ const ContactForm = () => {
             <input
               aria-label="E-mail"
               autoComplete="email"
-              className="bg-back-light transition-opacity duration-150 w-full text-front px-4 py-3 font-header font-semibold text-sm outline-none leading-normal"
+              className="caret-white bg-gradient-to-b from-[#242424] to-[#242424] transition-opacity duration-150 w-full text-front px-4 py-3 font-header font-semibold text-sm outline-none leading-normal"
               name="email"
               placeholder="EMAIL ADDRESS"
               required
@@ -43,7 +43,7 @@ const ContactForm = () => {
             <input
               aria-label="Phone number"
               autoComplete="phone number"
-              className="bg-back-light transition-opacity duration-150 w-full text-front px-4 py-3 font-header font-semibold text-sm outline-none leading-normal"
+              className="caret-white bg-gradient-to-b from-[#242424] to-[#242424] transition-opacity duration-150 w-full text-front px-4 py-3 font-header font-semibold text-sm outline-none leading-normal"
               name="phone"
               placeholder="PHONE NUMBER"
               required
@@ -55,15 +55,15 @@ const ContactForm = () => {
         <div className="w-full text-right py-px lg:px-px">
           <textarea
             aria-label="Message"
-            className="bg-back-light transition-opacity duration-150 block w-full text-front px-4 py-3 font-header font-semibold text-sm outline-none leading-normal bg-back-light resize-none border-b-0 pb-4"
+            className="caret-white bg-gradient-to-b from-[#242424] to-[#242424] transition-opacity duration-150 block w-full text-front px-4 py-3 font-header font-semibold text-sm outline-none leading-normal  resize-none border-b-0 pb-4"
             name="message"
             placeholder="MESSAGE"
             required
             rows="6"
           ></textarea>
-          <div className="bg-back-light text-white">
+          <div className=" text-white">
             <input
-              className="font-header inline-block font-semibold px-6 py-2 leading-tight cursor-pointer outline-none bg-front text-back-light uppercase mr-4 my-4 transition-opacity duration-150 hover:opacity-75"
+              className="bg-[#0044ff] font-header inline-block font-semibold px-6 py-2 leading-tight cursor-pointer outline-none bg-front text-back-light uppercase mr-4 my-4 transition-opacity duration-150 hover:opacity-75"
               type="submit"
               value="Send"
             />
