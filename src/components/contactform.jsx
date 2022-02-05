@@ -13,11 +13,11 @@ const ContactForm = () => {
 
       <form
         action={formspreeEndpoint}
-        className="flex flex-wrap text-black"
+        className="flex flex-wrap text-white"
         method="post"
       >
         <div className="flex flex-wrap w-full">
-          <div className="w-full lg:w-1/3 py-px lg:px-px">
+          <div className="w-full lg:w-1/3 py-px lg:px-px ">
             <input
               aria-label="Name"
               autoComplete="name"
@@ -57,7 +57,7 @@ const ContactForm = () => {
             aria-label="Message"
             className="caret-white bg-gradient-to-b from-[#242424] to-[#242424] transition-opacity duration-150 block w-full text-front px-4 py-3 font-header font-semibold text-sm outline-none leading-normal  resize-none border-b-0 pb-4"
             name="message"
-            placeholder="MESSAGE"
+            placeholder="Send me a message if you'd like to work together, have a question or just sharing something cool!"
             required
             rows="6"
           ></textarea>

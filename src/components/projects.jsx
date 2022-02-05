@@ -4,8 +4,8 @@ import Project from "../common/project";
 const Projects = () => {
   return (
     <div>
-      <h2 className="font-header font-semibold text-front uppercase">
-        📌 Projects
+      <h2 className="font-header font-semibold text-front uppercase ">
+        Projects
       </h2>
 
       <div className="py-2">
@@ -22,7 +22,7 @@ const Projects = () => {
           name="O.R Workflow Dashboard"
           link=""
           shortLink=""
-          description="Creating a dashboard for hospital staff to visualise previous and upcoming schedules in relation to surgery setups. "
+          description="Creating a dashboard for hospital staff to visualise previous and upcoming schedules in relation to surgery setups. Has cards to display various coloured information based on surgical status, and several filtering options to display selected data."
           tags={["React", "Node.js"]}
           icon={["react"]}
           status="In development"

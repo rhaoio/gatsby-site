@@ -4,7 +4,7 @@ const Personal = () => {
   return (
     <div className="">
       <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
-        📖 About
+        About
       </h5>
       <div className="font-text text-sm pb-10 leading-normal whitespace-pre-line">
         <span className="block pb-3">
