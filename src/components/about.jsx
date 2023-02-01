@@ -14,7 +14,7 @@ const About = () => {
       <div className="flex flex-col h-full justify-between">
         <div>
           <h4 className="font-header font-light text-front text-2xl leading-none mb-4">
-            Software Developer
+            Software Engineer
           </h4>
           <h4 className="font-header font-light text-front text-1xl leading-none mb-4">
             Game Designer

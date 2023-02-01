@@ -10,7 +10,7 @@ const Location = () => {
           <FontAwesomeIcon icon={faMapMarkerAlt} className="text-[#3c39ff]" />
         </span>
         <span className="text-back font-header font-bold py-1 px-3 text-lg">
-          Sydney, Australia
+          Melbourne, Australia
         </span>
       </div>
 

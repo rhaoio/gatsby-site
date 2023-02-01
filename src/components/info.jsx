@@ -34,7 +34,7 @@ const Info = () => {
         <FontAwesomeIcon icon={faGithub} fixedWidth />
         <a
           className="lowercase border-back px-3"
-          href="https://github.com/richardhao1995"
+          href="https://github.com/rhaoio"
         >
           Github
         </a>

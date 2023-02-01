@@ -10,13 +10,22 @@ const Projects = () => {
 
       <div className="py-2">
         <Project
-          name="Inventory3 - Smart Contracts to handle your inventory"
-          link=""
-          shortLink=""
-          description="A personal project to create an open-source inventory management solution on chain which allows users to manage in-house product pricing, location, quantity, batching, create and receive orders. Users will also be able to generate invoices and manage inventory related finances."
+          name="ZKCross - Zero-knowledge Proof Cross-chain Bridge"
+          link="https://zkcross.org"
+          shortLink="ZKCross"
+          description="A cross-chain bridge that uses zero-knowledge proofs to transfer assets across various blockchains. The bridge is built on top of the ZKWasm technology and AMM to provide liquidity for the bridge. The bridge is currently in the testing phase and is being used to transfer assets on several testnets."
           tags={["Ethereum", "Solidity", "React"]}
           icon={["eth", "react"]}
           status="In development"
+        />
+        <Project
+          name="Archon Labs"
+          link=""
+          shortLink=""
+          description="Running my own business to support and develop various web applications and games."
+          tags={["React", "Unity", "Node.js"]}
+          icon={["react", "unity"]}
+          status="Still alive"
         />
         <Project
           name="O.R Workflow Dashboard"

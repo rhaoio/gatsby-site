@@ -8,16 +8,25 @@ const Personal = () => {
       </h5>
       <div className="font-text text-sm pb-10 leading-normal whitespace-pre-line">
         <span className="block pb-3">
-          Currently creating an OR Dashboard to help hospitals improve their
-          workflow with @ButterflySystems.
+          Working at&nbsp;
+          <a
+            href="https://github.com/DelphinusLab"
+            target="blank"
+            style={{ textDecoration: "underline" }}
+          >
+            Delphinus Lab
+          </a>
+          &nbsp;as a Research Engineer. Developing and furthering zero-knowledge
+          proof technology.
         </span>
         <span className="block pb-3">
           Building useful and productive applications that people will enjoy
           using. Always looking for opportunities to contribute to awesome
-          businesses and projects that people find helpful and practical. Still
-          fairly new to software development, learning React, Node.js, Solidity
-          and Unity/C#. Enjoy reading about AI and Blockchain developments, hope
-          to create an awesome product with those technologies.
+          businesses and projects that people find helpful and practical. Always
+          learning new technologies and tools, currently looking at Rust, Unity
+          and further Game Development. Enjoy reading about AI and blockchain
+          developments, hope to create an awesome product with these
+          technologies.
         </span>
 
         <span className="block pb-3">
