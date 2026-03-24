@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Not found | Richard Hao" description="Page not found.">
+  <main class="min-h-screen bg-back px-6 py-24 text-front font-text">
+    <div class="mx-auto max-w-2xl">
+      <p class="mb-4 text-sm uppercase tracking-[0.3em] text-[#7aa2ff]">404</p>
+      <h1 class="font-header text-5xl font-bold leading-tight">Page not found</h1>
+      <p class="mt-6 max-w-xl text-base text-slate-300">
+        Sorry, the page you were looking for is not here.
+      </p>
+      <a
+        href="/"
+        class="mt-8 inline-flex items-center border border-line bg-back-light px-5 py-3 font-header text-sm font-semibold uppercase tracking-wide transition-opacity duration-150 hover:opacity-75"
+      >
+        Go home
+      </a>
+    </div>
+  </main>
+</BaseLayout>

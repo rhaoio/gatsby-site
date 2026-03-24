@@ -1,3 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-front: #f3f5f7;
+  --color-back: #121417;
+  --color-back-light: #191c21;
+  --color-line: #303641;
+  --color-lead: #3c39ff;
+  --font-header: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-text: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}

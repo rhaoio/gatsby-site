@@ -1,7 +1,6 @@
 import React from "react";
 
 const Tags = ({ tags }) => {
-  console.log(tags);
   return (
     <>
       {tags &&

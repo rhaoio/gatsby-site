@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 
 const ContactForm = () => {
   const formspreeEndpoint = "https://formspree.io/f/mrgjeznn";

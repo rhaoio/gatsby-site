@@ -17,7 +17,9 @@ const ProjIcon = ({ icon }) => {
   };
   return (
     <span className={`absolute right-0 bottom-0 mb-5 mr-5 text-back`}>
-      {icon.map((i) => getIcon(i))}
+      {icon.map((i) => (
+        <span key={i}>{getIcon(i)}</span>
+      ))}
     </span>
   );
 };

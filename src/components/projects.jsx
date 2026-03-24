@@ -10,18 +10,36 @@ const Projects = () => {
 
       <div className="py-2">
         <Project
-          name="ZKCross - Zero-knowledge Proof Cross-chain Bridge"
-          link="https://zkcross.org"
-          shortLink="ZKCross"
-          description="A cross-chain bridge that uses zero-knowledge proofs to transfer assets across various blockchains. The bridge is built on top of the ZKWasm technology and AMM to provide liquidity for the bridge. The bridge is currently in the testing phase and is being used to transfer assets on several testnets."
-          tags={["Ethereum", "Solidity", "React"]}
+          name="Perpetual DEX"
+          link=""
+          shortLink="Unnamed client"
+          description="Contributed to a perpetual DEX for an unnamed client, taking on new product features across the stack and implementing initial Solidity contracts for verification of exchange state. Focused on shipping practical pieces of the system while helping move the broader protocol forward."
+          tags={["Solidity", "TypeScript", "Full-stack"]}
           icon={["eth", "react"]}
           status="In development"
         />
         <Project
-          name="Archon Labs"
+          name="Delphinus Prover Nodes"
+          link=""
+          shortLink="Delphinus Lab"
+          description="Developed a prover node network for Delphinus Lab, including the server-side coordination required to manage distributed prover nodes and keep proving workloads moving reliably. Worked on the systems needed to orchestrate nodes, coordinate jobs, and support production-oriented prover infrastructure."
+          tags={["Rust", "Infrastructure", "Distributed Systems"]}
+          icon={["eth", "react"]}
+          status="live"
+        />
+        <Project
+          name="ZKCross - Zero-knowledge Proof Cross-chain Bridge"
           link=""
           shortLink=""
+          description="A cross-chain bridge that uses zero-knowledge proofs to transfer assets across various blockchains. The bridge is built on top of the ZKWasm technology and AMM to provide liquidity for the bridge. The bridge is currently in the testing phase and is being used to transfer assets on several testnets."
+          tags={["Ethereum", "Solidity", "React"]}
+          icon={["eth", "react"]}
+          status="Sunset"
+        />
+        <Project
+          name="Archon Labs"
+          link="https://archonlabs.xyz"
+          shortLink="archonlabs.xyz"
           description="Running my own business to support and develop various web applications and games."
           tags={["React", "Unity", "Node.js"]}
           icon={["react", "unity"]}
@@ -38,7 +56,7 @@ const Projects = () => {
         />
         <Project
           name="Boba Bao"
-          link="https://play.google.com/store/apps/details?id=com.FiveHeadGames.BobaBao"
+          link="https://play.google.com/store/apps/details?id=com.FiveHeadGames.BobaBao2025"
           shortLink="Google Play"
           description="A simple endless runer style game created with Unity where I created some animations, utilised the In App purchases and deployed to the Google Play store."
           tags={["Unity", "C#", "Android"]}
@@ -47,21 +65,21 @@ const Projects = () => {
         />
         <Project
           name="NFT Minting site"
-          link="https://pacific-sands-13311.herokuapp.com/"
-          shortLink="pacific-sands-13311.herokuapp.com"
+          link=""
+          shortLink=""
           description="A simple front-end and smart contract system to randomly generate/mint simple text-based NFTs onchain. Front end is deployed on heroku. Smart contracts live on the Rinkeby Testnet. "
           tags={["Solidity", "Ethereum", "React"]}
           icon={["eth", "react"]}
-          status="live"
+          status="Sunset"
         />
         <Project
           name="Solidity Web App"
-          link="https://waveportal-starter-project.chard1.repl.co"
-          shortLink="waveportal-starter-project.chard1.repl.co"
+          link=""
+          shortLink=""
           description="The first Solidity and React project complete with the assistance of @buildspace. Store your message onchain and also have a random chance of receiving some free Eth."
           tags={["Solidity", "Ethereum", "React"]}
           icon={["eth", "react"]}
-          status="live"
+          status="Sunset"
         />
       </div>
     </div>

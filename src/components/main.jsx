@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Skills from "./skills";
 import Personal from "./personal";
 import Projects from "./projects";

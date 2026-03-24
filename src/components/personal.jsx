@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Personal = () => {
   return (
@@ -11,7 +11,8 @@ const Personal = () => {
           Working at&nbsp;
           <a
             href="https://github.com/DelphinusLab"
-            target="blank"
+            target="_blank"
+            rel="noreferrer"
             style={{ textDecoration: "underline" }}
           >
             Delphinus Lab

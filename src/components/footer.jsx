@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-front mt-16 pt-8 pb-16 bg-black">
+    <footer className="mt-16 border-t border-line bg-[#0d1015] pt-8 pb-16">
       <div className="md:max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 flex items-center">
-        <div className="w-2/3 text-back-light font-header text-xs">
+        <div className="w-2/3 text-slate-300 font-header text-xs">
           <b>&copy; {new Date().getFullYear()} richard hao.</b>
-          <b className="font-normal"> Created with Gatsby and Tailwind</b>
+          <b className="font-normal"> Built with Astro and Tailwind</b>
         </div>
         {/* <div className="w-1/3 text-right">
           <a

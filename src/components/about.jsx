@@ -1,11 +1,6 @@
 import React from "react";
 import Info from "./info";
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
-
 import Location from "./location";
-
-//placeholder image
-import face from "../images/me.png";
 
 const About = () => {
   const name = "richard hao";
@@ -16,7 +11,7 @@ const About = () => {
           <h4 className="font-header font-light text-front text-2xl leading-none mb-4">
             Software Engineer
           </h4>
-          <h4 className="font-header font-light text-front text-1xl leading-none mb-4">
+          <h4 className="font-header font-light text-front text-xl leading-none mb-4">
             Game Designer
           </h4>
 
@@ -25,14 +20,12 @@ const About = () => {
           </h1>
           <div className="relative inline-block leading-none">
             <div className="relative inline-block leading-none">
-              <StaticImage
-                src="../images/me.png"
+              <img
+                src="/me.png"
                 alt={name}
-                placeholder="blurred"
-                layout="fixed"
                 width={190}
                 height={190}
-                className="rounded-full relative z-10"
+                className="rounded-full relative z-10 h-[190px] w-[190px] object-cover"
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#5701f7] to-[#3700ff] bg-lead z-0 transform translate-x-5"></div>
             </div>

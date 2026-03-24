@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import NavBar from "../components/navbar.jsx";
+import About from "../components/about.jsx";
+import MainInfo from "../components/main.jsx";
+import Footer from "../components/footer.jsx";
+---
+
+<BaseLayout title="Richard Hao's Personal Site" description="All about Richard Hao.">
+  <div class="antialiased bg-back leading-normal font-text text-front bg-gradient-to-b from-[#313131] to-[#1f1f1f] min-h-screen">
+    <NavBar />
+
+    <div class="md:max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 flex flex-wrap pt-4 my-8">
+      <About />
+      <MainInfo />
+    </div>
+
+    <Footer />
+  </div>
+</BaseLayout>

@@ -1,40 +1,36 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
-import {
-  faGithub,
-  faLinkedin,
-  faTwitter,
-  faEthereum,
-  faUnity,
-} from "@fortawesome/free-brands-svg-icons";
+import { FaEnvelopeOpenText, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 const Info = () => {
   return (
     <div className="w-auto">
-      <div>
-        <FontAwesomeIcon icon={faEnvelopeOpen} fixedWidth />
+      <div className="flex items-center gap-3 py-1 text-front">
+        <FaEnvelopeOpenText className="h-4 w-4 shrink-0 text-[#7aa2ff]" />
         <a
-          className="lowercase border-back px-3"
+          className="lowercase"
           href="mailto:rhaogamedesign@gmail.com"
         >
           Email
         </a>
       </div>
-      <div>
-        <FontAwesomeIcon icon={faLinkedin} fixedWidth />
+      <div className="flex items-center gap-3 py-1 text-front">
+        <FaLinkedin className="h-4 w-4 shrink-0 text-[#7aa2ff]" />
         <a
-          className="lowercase  border-back px-3 "
+          className="lowercase"
           href="https://www.linkedin.com/in/richardhao1995/"
+          rel="noreferrer"
+          target="_blank"
         >
           Linkedin
         </a>
       </div>
-      <div>
-        <FontAwesomeIcon icon={faGithub} fixedWidth />
+      <div className="flex items-center gap-3 py-1 text-front">
+        <FaGithub className="h-4 w-4 shrink-0 text-[#7aa2ff]" />
         <a
-          className="lowercase border-back px-3"
+          className="lowercase"
           href="https://github.com/rhaoio"
+          rel="noreferrer"
+          target="_blank"
         >
           Github
         </a>
